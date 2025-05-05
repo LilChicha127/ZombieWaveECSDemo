@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5641747839271672291
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 7994a0f35e354f7488ac1de0f7d9872e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.13
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7994a0f35e354f7488ac1de0f7d9872e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0000023841858
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7994a0f35e354f7488ac1de0f7d9872e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.0539408
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7994a0f35e354f7488ac1de0f7d9872e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7994a0f35e354f7488ac1de0f7d9872e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7994a0f35e354f7488ac1de0f7d9872e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7994a0f35e354f7488ac1de0f7d9872e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7994a0f35e354f7488ac1de0f7d9872e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7994a0f35e354f7488ac1de0f7d9872e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7994a0f35e354f7488ac1de0f7d9872e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7994a0f35e354f7488ac1de0f7d9872e, type: 3}
+      propertyPath: m_Name
+      value: zombi 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8417361359673230750, guid: 7994a0f35e354f7488ac1de0f7d9872e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e06871e9e40ccbb4b8760dc2ac415a4b, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7994a0f35e354f7488ac1de0f7d9872e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4930534287489449863}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7994a0f35e354f7488ac1de0f7d9872e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -9105242249862775861}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7994a0f35e354f7488ac1de0f7d9872e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -4715880796318997187}
+  m_SourcePrefab: {fileID: 100100000, guid: 7994a0f35e354f7488ac1de0f7d9872e, type: 3}
+--- !u!1 &4794902129809597618 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7994a0f35e354f7488ac1de0f7d9872e, type: 3}
+  m_PrefabInstance: {fileID: 5641747839271672291}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &4930534287489449863
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4794902129809597618}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 780a48b171958754eb9314fd659bd700, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-9105242249862775861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4794902129809597618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495156623a7b1e94087f916ba42745e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _deleteEntityWithDestroy: 0
+  _scriptableTemplates: []
+  _monoTemplates:
+  - {fileID: -5805886734959520042, guid: 5b352604d9e849149a57531b53d089c1, type: 3}
+--- !u!114 &-4715880796318997187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4794902129809597618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 351338ca92ace49499f450172d857af6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _componentTemplates:
+  - rid: 1535678405463769299
+  - rid: 1535678405463769300
+  - rid: 1535678405463769312
+  - rid: 1535678429489004614
+  references:
+    version: 2
+    RefIds:
+    - rid: 1535678405463769299
+      type: {class: EnemyAnimT, ns: , asm: Assembly-CSharp}
+      data:
+        component:
+          animator: {fileID: 3124882525922565333, guid: 042cd5d2fccdae743afe7444c303b058, type: 3}
+        _offset: 0
+    - rid: 1535678405463769300
+      type: {class: EnemyViewT, ns: , asm: Assembly-CSharp}
+      data:
+        component:
+          view: {fileID: 6221217048639384897, guid: 042cd5d2fccdae743afe7444c303b058, type: 3}
+        _offset: 0
+    - rid: 1535678405463769312
+      type: {class: EnemyComponentT, ns: , asm: Assembly-CSharp}
+      data:
+        component:
+          Health: 100
+          MaxHealth: 100
+          Damage: 3
+        _offset: 0
+    - rid: 1535678429489004614
+      type: {class: EnemyTargetT, ns: , asm: Assembly-CSharp}
+      data:
+        component:
+          mainHall: {fileID: 0}
+          player: {fileID: 0}
+        _offset: 0
