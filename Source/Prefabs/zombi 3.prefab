@@ -222,8 +222,8 @@ MonoBehaviour:
   - rid: 1535678405463769299
   - rid: 1535678405463769300
   - rid: 1535678405463769312
-  - rid: 1535678523450851415
   - rid: 1535678523450851416
+  - rid: 6816288329687630000
   references:
     version: 2
     RefIds:
@@ -248,20 +248,18 @@ MonoBehaviour:
           MinSpeed: 2
           MaxSpeed: 3
         _offset: 0
-    - rid: 1535678523450851415
-      type: {class: DamageT, ns: , asm: Assembly-CSharp}
-      data:
-        component:
-          value: 0
-          enemy:
-            _full: 0
-        _offset: 0
     - rid: 1535678523450851416
       type: {class: HealthT, ns: , asm: Assembly-CSharp}
       data:
         component:
           Health: 100
           MaxHealth: 0
+        _offset: 0
+    - rid: 6816288329687630000
+      type: {class: SliderT, ns: , asm: Assembly-CSharp}
+      data:
+        component:
+          view: {fileID: 0}
         _offset: 0
 --- !u!114 &5900718956588236613
 MonoBehaviour:

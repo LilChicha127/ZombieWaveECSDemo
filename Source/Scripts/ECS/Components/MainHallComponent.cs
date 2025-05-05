@@ -9,6 +9,7 @@ public struct MainHallComponent : IEcsComponent
 public struct MainHallAttackRequest : IEcsComponent
 {
     public int damage;
+    public EcsEntityConnect connect;
 }
 
 public struct MainHallDefeate : IEcsComponent

@@ -14,8 +14,12 @@ public class Enemy : MonoBehaviour, IDamagable
 
     public void Damage(int damage)
     {
-        var request = Connect.Entity;
-        request.Get<DamageComponent>().value = damage;
+        Connect.Entity.World.NewEntityLong().Get<DamageComponent>()
+                        = new DamageComponent()
+                 {
+                      value = damage,
+                     connect = Connect
+                 };
     }
 
     private void OnTriggerEnter(Collider other)
@@ -37,9 +41,10 @@ public class Enemy : MonoBehaviour, IDamagable
         while (true)
         {
             int damage = Connect.Entity.Get<EnemyComponent>().Damage;
-            _mainHall.World.NewEntityLong().Get<MainHallAttackRequest>() = new MainHallAttackRequest()
+            _mainHall.Entity.World.NewEntityLong().Get<MainHallAttackRequest>() = new MainHallAttackRequest()
             {
-                damage = damage
+                damage = damage,
+                connect = _mainHall
             };
 
             yield return new WaitForSeconds(5f);

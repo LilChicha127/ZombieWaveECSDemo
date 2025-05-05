@@ -44,7 +44,7 @@ public struct MainHall : IEcsComponent
 public struct DamageComponent : IEcsComponent
 {
     public int value;
-    public entlong enemy;
+    public EcsEntityConnect connect;
 }
 
 [Serializable]
