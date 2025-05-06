@@ -4,8 +4,6 @@ using System.Collections.Generic;
 
 public class InitializeECS : MonoBehaviour
 {
-    public static EcsDefaultWorld World;
-
     [SerializeField] private List<EcsEntityConnect> entityConnects;
     [SerializeField] private Transform _position;
     [SerializeField] private WaveSystem _waveSystem;
@@ -16,7 +14,6 @@ public class InitializeECS : MonoBehaviour
     private void Awake()
     {
         _world = new EcsDefaultWorld();
-        World = _world;
         var eventWorld = new EcsEventWorld();
         _pipeline = EcsPipeline.New()
             .Inject(_world, eventWorld)

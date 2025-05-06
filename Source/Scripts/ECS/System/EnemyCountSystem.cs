@@ -25,15 +25,7 @@ public class EnemyCountSystem : IEcsRun
         {
             if(_counter <= 1)
             {
-                var spawnData = waveSystem.GetSpawnData();
-                ref var spawn = ref _world.NewEntityLong().Get<EnemySpawn>();
-                spawn = new EnemySpawn()
-                {
-                    zombieCount = spawnData.zombieCount,
-                    spawnInterval = spawnData.spawnInterval,
-                    spawnPoints = spawnData.spawnPoints,
-                    viewEnemys = spawnData.viewEnemys,
-                };
+                waveSystem.StartWave(_world);
             }
 
             _counter -= 1;
